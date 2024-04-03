@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Daily",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "240401easy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-240401easy-Debug-168eb9911c2fabe8dad6.json",
+					"name" : "240401easy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "240402medium::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-240402medium-Debug-a0c3f7aaef2d27c13c52.json",
+					"name" : "240402medium",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Daily::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Daily-Debug-1977b170fb47af16d831.json",
+					"name" : "Daily",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/WORKSPACE/Daily/cmake-build-debug",
+		"source" : "D:/WORKSPACE/Daily"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
