@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_Daily: phony || CMakeFiles/Daily.dir
 
 build CMakeFiles/Daily.dir/main.cpp.obj: CXX_COMPILER__Daily_unscanned_Debug D$:/WORKSPACE/Daily/main.cpp || cmake_object_order_depends_target_Daily
   DEP_FILE = CMakeFiles\Daily.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Daily.dir
   OBJECT_FILE_DIR = CMakeFiles\Daily.dir
 
@@ -84,7 +84,7 @@ build cmake_object_order_depends_target_240401easy: phony || CMakeFiles/240401ea
 
 build CMakeFiles/240401easy.dir/240401easy.cpp.obj: CXX_COMPILER__240401easy_unscanned_Debug D$:/WORKSPACE/Daily/240401easy.cpp || cmake_object_order_depends_target_240401easy
   DEP_FILE = CMakeFiles\240401easy.dir\240401easy.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\240401easy.dir
   OBJECT_FILE_DIR = CMakeFiles\240401easy.dir
 
@@ -117,7 +117,7 @@ build cmake_object_order_depends_target_240402medium: phony || CMakeFiles/240402
 
 build CMakeFiles/240402medium.dir/240402medium.cpp.obj: CXX_COMPILER__240402medium_unscanned_Debug D$:/WORKSPACE/Daily/240402medium.cpp || cmake_object_order_depends_target_240402medium
   DEP_FILE = CMakeFiles\240402medium.dir\240402medium.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\240402medium.dir
   OBJECT_FILE_DIR = CMakeFiles\240402medium.dir
 
@@ -138,6 +138,501 @@ build 240402medium.exe: CXX_EXECUTABLE_LINKER__240402medium_Debug CMakeFiles/240
   TARGET_FILE = 240402medium.exe
   TARGET_IMPLIB = lib240402medium.dll.a
   TARGET_PDB = 240402medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240403easy
+
+
+#############################################
+# Order-only phony target for 240403easy
+
+build cmake_object_order_depends_target_240403easy: phony || CMakeFiles/240403easy.dir
+
+build CMakeFiles/240403easy.dir/240403easy.cpp.obj: CXX_COMPILER__240403easy_unscanned_Debug D$:/WORKSPACE/Daily/240403easy.cpp || cmake_object_order_depends_target_240403easy
+  DEP_FILE = CMakeFiles\240403easy.dir\240403easy.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240403easy.dir
+  OBJECT_FILE_DIR = CMakeFiles\240403easy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240403easy
+
+
+#############################################
+# Link the executable 240403easy.exe
+
+build 240403easy.exe: CXX_EXECUTABLE_LINKER__240403easy_Debug CMakeFiles/240403easy.dir/240403easy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240403easy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240403easy.exe
+  TARGET_IMPLIB = lib240403easy.dll.a
+  TARGET_PDB = 240403easy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240404medium
+
+
+#############################################
+# Order-only phony target for 240404medium
+
+build cmake_object_order_depends_target_240404medium: phony || CMakeFiles/240404medium.dir
+
+build CMakeFiles/240404medium.dir/240404medium.cpp.obj: CXX_COMPILER__240404medium_unscanned_Debug D$:/WORKSPACE/Daily/240404medium.cpp || cmake_object_order_depends_target_240404medium
+  DEP_FILE = CMakeFiles\240404medium.dir\240404medium.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240404medium.dir
+  OBJECT_FILE_DIR = CMakeFiles\240404medium.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240404medium
+
+
+#############################################
+# Link the executable 240404medium.exe
+
+build 240404medium.exe: CXX_EXECUTABLE_LINKER__240404medium_Debug CMakeFiles/240404medium.dir/240404medium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240404medium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240404medium.exe
+  TARGET_IMPLIB = lib240404medium.dll.a
+  TARGET_PDB = 240404medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240405medium
+
+
+#############################################
+# Order-only phony target for 240405medium
+
+build cmake_object_order_depends_target_240405medium: phony || CMakeFiles/240405medium.dir
+
+build CMakeFiles/240405medium.dir/240405medium.cpp.obj: CXX_COMPILER__240405medium_unscanned_Debug D$:/WORKSPACE/Daily/240405medium.cpp || cmake_object_order_depends_target_240405medium
+  DEP_FILE = CMakeFiles\240405medium.dir\240405medium.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240405medium.dir
+  OBJECT_FILE_DIR = CMakeFiles\240405medium.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240405medium
+
+
+#############################################
+# Link the executable 240405medium.exe
+
+build 240405medium.exe: CXX_EXECUTABLE_LINKER__240405medium_Debug CMakeFiles/240405medium.dir/240405medium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240405medium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240405medium.exe
+  TARGET_IMPLIB = lib240405medium.dll.a
+  TARGET_PDB = 240405medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240406hard
+
+
+#############################################
+# Order-only phony target for 240406hard
+
+build cmake_object_order_depends_target_240406hard: phony || CMakeFiles/240406hard.dir
+
+build CMakeFiles/240406hard.dir/240406hard.cpp.obj: CXX_COMPILER__240406hard_unscanned_Debug D$:/WORKSPACE/Daily/240406hard.cpp || cmake_object_order_depends_target_240406hard
+  DEP_FILE = CMakeFiles\240406hard.dir\240406hard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240406hard.dir
+  OBJECT_FILE_DIR = CMakeFiles\240406hard.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240406hard
+
+
+#############################################
+# Link the executable 240406hard.exe
+
+build 240406hard.exe: CXX_EXECUTABLE_LINKER__240406hard_Debug CMakeFiles/240406hard.dir/240406hard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240406hard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240406hard.exe
+  TARGET_IMPLIB = lib240406hard.dll.a
+  TARGET_PDB = 240406hard.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240407medium
+
+
+#############################################
+# Order-only phony target for 240407medium
+
+build cmake_object_order_depends_target_240407medium: phony || CMakeFiles/240407medium.dir
+
+build CMakeFiles/240407medium.dir/240407medium.cpp.obj: CXX_COMPILER__240407medium_unscanned_Debug D$:/WORKSPACE/Daily/240407medium.cpp || cmake_object_order_depends_target_240407medium
+  DEP_FILE = CMakeFiles\240407medium.dir\240407medium.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240407medium.dir
+  OBJECT_FILE_DIR = CMakeFiles\240407medium.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240407medium
+
+
+#############################################
+# Link the executable 240407medium.exe
+
+build 240407medium.exe: CXX_EXECUTABLE_LINKER__240407medium_Debug CMakeFiles/240407medium.dir/240407medium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240407medium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240407medium.exe
+  TARGET_IMPLIB = lib240407medium.dll.a
+  TARGET_PDB = 240407medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240408hard
+
+
+#############################################
+# Order-only phony target for 240408hard
+
+build cmake_object_order_depends_target_240408hard: phony || CMakeFiles/240408hard.dir
+
+build CMakeFiles/240408hard.dir/240408hard.cpp.obj: CXX_COMPILER__240408hard_unscanned_Debug D$:/WORKSPACE/Daily/240408hard.cpp || cmake_object_order_depends_target_240408hard
+  DEP_FILE = CMakeFiles\240408hard.dir\240408hard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240408hard.dir
+  OBJECT_FILE_DIR = CMakeFiles\240408hard.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240408hard
+
+
+#############################################
+# Link the executable 240408hard.exe
+
+build 240408hard.exe: CXX_EXECUTABLE_LINKER__240408hard_Debug CMakeFiles/240408hard.dir/240408hard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240408hard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240408hard.exe
+  TARGET_IMPLIB = lib240408hard.dll.a
+  TARGET_PDB = 240408hard.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240409easy
+
+
+#############################################
+# Order-only phony target for 240409easy
+
+build cmake_object_order_depends_target_240409easy: phony || CMakeFiles/240409easy.dir
+
+build CMakeFiles/240409easy.dir/240409easy.cpp.obj: CXX_COMPILER__240409easy_unscanned_Debug D$:/WORKSPACE/Daily/240409easy.cpp || cmake_object_order_depends_target_240409easy
+  DEP_FILE = CMakeFiles\240409easy.dir\240409easy.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240409easy.dir
+  OBJECT_FILE_DIR = CMakeFiles\240409easy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240409easy
+
+
+#############################################
+# Link the executable 240409easy.exe
+
+build 240409easy.exe: CXX_EXECUTABLE_LINKER__240409easy_Debug CMakeFiles/240409easy.dir/240409easy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240409easy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240409easy.exe
+  TARGET_IMPLIB = lib240409easy.dll.a
+  TARGET_PDB = 240409easy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240410medium
+
+
+#############################################
+# Order-only phony target for 240410medium
+
+build cmake_object_order_depends_target_240410medium: phony || CMakeFiles/240410medium.dir
+
+build CMakeFiles/240410medium.dir/240410medium.cpp.obj: CXX_COMPILER__240410medium_unscanned_Debug D$:/WORKSPACE/Daily/240410medium.cpp || cmake_object_order_depends_target_240410medium
+  DEP_FILE = CMakeFiles\240410medium.dir\240410medium.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240410medium.dir
+  OBJECT_FILE_DIR = CMakeFiles\240410medium.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240410medium
+
+
+#############################################
+# Link the executable 240410medium.exe
+
+build 240410medium.exe: CXX_EXECUTABLE_LINKER__240410medium_Debug CMakeFiles/240410medium.dir/240410medium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240410medium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240410medium.exe
+  TARGET_IMPLIB = lib240410medium.dll.a
+  TARGET_PDB = 240410medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240411
+
+
+#############################################
+# Order-only phony target for 240411
+
+build cmake_object_order_depends_target_240411: phony || CMakeFiles/240411.dir
+
+build CMakeFiles/240411.dir/NO240411hard.cpp.obj: CXX_COMPILER__240411_unscanned_Debug D$:/WORKSPACE/Daily/NO240411hard.cpp || cmake_object_order_depends_target_240411
+  DEP_FILE = CMakeFiles\240411.dir\NO240411hard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240411.dir
+  OBJECT_FILE_DIR = CMakeFiles\240411.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240411
+
+
+#############################################
+# Link the executable 240411.exe
+
+build 240411.exe: CXX_EXECUTABLE_LINKER__240411_Debug CMakeFiles/240411.dir/NO240411hard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240411.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240411.exe
+  TARGET_IMPLIB = lib240411.dll.a
+  TARGET_PDB = 240411.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240411hard
+
+
+#############################################
+# Order-only phony target for 240411hard
+
+build cmake_object_order_depends_target_240411hard: phony || CMakeFiles/240411hard.dir
+
+build CMakeFiles/240411hard.dir/NO240411hard.cpp.obj: CXX_COMPILER__240411hard_unscanned_Debug D$:/WORKSPACE/Daily/NO240411hard.cpp || cmake_object_order_depends_target_240411hard
+  DEP_FILE = CMakeFiles\240411hard.dir\NO240411hard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240411hard.dir
+  OBJECT_FILE_DIR = CMakeFiles\240411hard.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240411hard
+
+
+#############################################
+# Link the executable 240411hard.exe
+
+build 240411hard.exe: CXX_EXECUTABLE_LINKER__240411hard_Debug CMakeFiles/240411hard.dir/NO240411hard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240411hard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240411hard.exe
+  TARGET_IMPLIB = lib240411hard.dll.a
+  TARGET_PDB = 240411hard.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240413medium
+
+
+#############################################
+# Order-only phony target for 240413medium
+
+build cmake_object_order_depends_target_240413medium: phony || CMakeFiles/240413medium.dir
+
+build CMakeFiles/240413medium.dir/240413medium.cpp.obj: CXX_COMPILER__240413medium_unscanned_Debug D$:/WORKSPACE/Daily/240413medium.cpp || cmake_object_order_depends_target_240413medium
+  DEP_FILE = CMakeFiles\240413medium.dir\240413medium.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240413medium.dir
+  OBJECT_FILE_DIR = CMakeFiles\240413medium.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240413medium
+
+
+#############################################
+# Link the executable 240413medium.exe
+
+build 240413medium.exe: CXX_EXECUTABLE_LINKER__240413medium_Debug CMakeFiles/240413medium.dir/240413medium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240413medium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240413medium.exe
+  TARGET_IMPLIB = lib240413medium.dll.a
+  TARGET_PDB = 240413medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240414easy
+
+
+#############################################
+# Order-only phony target for 240414easy
+
+build cmake_object_order_depends_target_240414easy: phony || CMakeFiles/240414easy.dir
+
+build CMakeFiles/240414easy.dir/240414easy.cpp.obj: CXX_COMPILER__240414easy_unscanned_Debug D$:/WORKSPACE/Daily/240414easy.cpp || cmake_object_order_depends_target_240414easy
+  DEP_FILE = CMakeFiles\240414easy.dir\240414easy.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240414easy.dir
+  OBJECT_FILE_DIR = CMakeFiles\240414easy.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240414easy
+
+
+#############################################
+# Link the executable 240414easy.exe
+
+build 240414easy.exe: CXX_EXECUTABLE_LINKER__240414easy_Debug CMakeFiles/240414easy.dir/240414easy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240414easy.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240414easy.exe
+  TARGET_IMPLIB = lib240414easy.dll.a
+  TARGET_PDB = 240414easy.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240415
+
+
+#############################################
+# Order-only phony target for 240415
+
+build cmake_object_order_depends_target_240415: phony || CMakeFiles/240415.dir
+
+build CMakeFiles/240415.dir/240415easy.cpp.obj: CXX_COMPILER__240415_unscanned_Debug D$:/WORKSPACE/Daily/240415easy.cpp || cmake_object_order_depends_target_240415
+  DEP_FILE = CMakeFiles\240415.dir\240415easy.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240415.dir
+  OBJECT_FILE_DIR = CMakeFiles\240415.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240415
+
+
+#############################################
+# Link the executable 240415.exe
+
+build 240415.exe: CXX_EXECUTABLE_LINKER__240415_Debug CMakeFiles/240415.dir/240415easy.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240415.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240415.exe
+  TARGET_IMPLIB = lib240415.dll.a
+  TARGET_PDB = 240415.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240424medium
+
+
+#############################################
+# Order-only phony target for 240424medium
+
+build cmake_object_order_depends_target_240424medium: phony || CMakeFiles/240424medium.dir
+
+build CMakeFiles/240424medium.dir/240424medium.cpp.obj: CXX_COMPILER__240424medium_unscanned_Debug D$:/WORKSPACE/Daily/240424medium.cpp || cmake_object_order_depends_target_240424medium
+  DEP_FILE = CMakeFiles\240424medium.dir\240424medium.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240424medium.dir
+  OBJECT_FILE_DIR = CMakeFiles\240424medium.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240424medium
+
+
+#############################################
+# Link the executable 240424medium.exe
+
+build 240424medium.exe: CXX_EXECUTABLE_LINKER__240424medium_Debug CMakeFiles/240424medium.dir/240424medium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240424medium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240424medium.exe
+  TARGET_IMPLIB = lib240424medium.dll.a
+  TARGET_PDB = 240424medium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 240504hard
+
+
+#############################################
+# Order-only phony target for 240504hard
+
+build cmake_object_order_depends_target_240504hard: phony || CMakeFiles/240504hard.dir
+
+build CMakeFiles/240504hard.dir/240504hard.cpp.obj: CXX_COMPILER__240504hard_unscanned_Debug D$:/WORKSPACE/Daily/240504hard.cpp || cmake_object_order_depends_target_240504hard
+  DEP_FILE = CMakeFiles\240504hard.dir\240504hard.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\240504hard.dir
+  OBJECT_FILE_DIR = CMakeFiles\240504hard.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 240504hard
+
+
+#############################################
+# Link the executable 240504hard.exe
+
+build 240504hard.exe: CXX_EXECUTABLE_LINKER__240504hard_Debug CMakeFiles/240504hard.dir/240504hard.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\240504hard.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 240504hard.exe
+  TARGET_IMPLIB = lib240504hard.dll.a
+  TARGET_PDB = 240504hard.exe.dbg
 
 
 #############################################
@@ -169,6 +664,36 @@ build 240401easy: phony 240401easy.exe
 
 build 240402medium: phony 240402medium.exe
 
+build 240403easy: phony 240403easy.exe
+
+build 240404medium: phony 240404medium.exe
+
+build 240405medium: phony 240405medium.exe
+
+build 240406hard: phony 240406hard.exe
+
+build 240407medium: phony 240407medium.exe
+
+build 240408hard: phony 240408hard.exe
+
+build 240409easy: phony 240409easy.exe
+
+build 240410medium: phony 240410medium.exe
+
+build 240411: phony 240411.exe
+
+build 240411hard: phony 240411hard.exe
+
+build 240413medium: phony 240413medium.exe
+
+build 240414easy: phony 240414easy.exe
+
+build 240415: phony 240415.exe
+
+build 240424medium: phony 240424medium.exe
+
+build 240504hard: phony 240504hard.exe
+
 build Daily: phony Daily.exe
 
 # =============================================================================
@@ -179,7 +704,7 @@ build Daily: phony Daily.exe
 #############################################
 # Folder: D:/WORKSPACE/Daily/cmake-build-debug
 
-build all: phony Daily.exe 240401easy.exe 240402medium.exe
+build all: phony Daily.exe 240401easy.exe 240402medium.exe 240403easy.exe 240404medium.exe 240405medium.exe 240406hard.exe 240407medium.exe 240408hard.exe 240409easy.exe 240410medium.exe 240411.exe 240411hard.exe 240413medium.exe 240414easy.exe 240415.exe 240424medium.exe 240504hard.exe
 
 # =============================================================================
 # Built-in targets

@@ -1,9 +1,25 @@
 cmake_minimum_required(VERSION 3.27)
 project(Daily)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 
 add_executable(Daily main.cpp)
 
 add_executable(240401easy 240401easy.cpp)
 add_executable(240402medium 240402medium.cpp)
+
+add_executable(240403easy 240403easy.cpp)
+add_executable(240404medium 240404medium.cpp)
+add_executable(240405medium 240405medium.cpp)
+add_executable(240406hard 240406hard.cpp)
+add_executable(240407medium 240407medium.cpp)
+add_executable(240408hard 240408hard.cpp)
+add_executable(240409easy 240409easy.cpp)
+add_executable(240410medium 240410medium.cpp)
+add_executable(240411 NO240411hard.cpp)
+add_executable(240411hard NO240411hard.cpp)
+add_executable(240413medium 240413medium.cpp)
+add_executable(240414easy 240414easy.cpp)
+add_executable(240415 240415easy.cpp)
+add_executable(240424medium 240424medium.cpp)
+add_executable(240504hard 240504hard.cpp)
