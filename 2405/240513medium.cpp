@@ -41,5 +41,5 @@ public:
     }
 };
 int main() {
-    cout << "  dsad" << endl;
+    cout << "reset" << endl;
 }
